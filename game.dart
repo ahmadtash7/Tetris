@@ -3,6 +3,7 @@ import 'main.dart';
 import 'actionButton.dart';
 
 enum LastButtonPressed { LEFT, RIGHT, ROTATE, NONE }
+enum MoveDir {LEFT, RIGHT, DOWN}
 
 class Game extends StatefulWidget {
   State<StatefulWidget> createState() => _Game();
